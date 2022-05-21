@@ -1,7 +1,5 @@
 
 
-GET http://localhost:3000/ddd
-
 ###
 GET http://localhost:3000/users
 

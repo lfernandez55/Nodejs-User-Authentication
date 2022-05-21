@@ -6,22 +6,11 @@ app.use(express.json())
 
 const users = []
 
-app.get('/ddd', (req, res) => {
-    console.log("DEBUG")
-    res.json("DDDDD")
-})
 
 
 app.get('/users', (req, res) => {
-    console.log("DEBUG")
     res.json(users)
 })
-
-// app.post('/users', (req, res) => {
-//     console.log("DEBUGgggg")
-//     res.json("dork")
-// })
-
 
 app.post('/users', async (req, res) => {
     try {
